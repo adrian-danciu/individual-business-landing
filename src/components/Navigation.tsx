@@ -2,6 +2,7 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
 
+import logo from "../assets/logo-blue.png";
 import { navigationLinks } from "../constants/navbar.config";
 
 interface LinkProps {
@@ -21,11 +22,7 @@ const Navbar = () => {
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Ana Marinescu Psiholog</span>
-            <img
-              className="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              alt=""
-            />
+            <img className="w-full h-10" src={logo} alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">

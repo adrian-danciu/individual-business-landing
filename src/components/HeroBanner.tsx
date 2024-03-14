@@ -73,7 +73,7 @@ const HeroBanner = () => {
                 <h1 className="text-4xl font-bold tracking-tight text-headline sm:text-6xl">
                   We’re changing the way people connect.
                 </h1>
-                <p className="mt-6 text-lg leading-8 text-headline sm:max-w-md lg:max-w-none">
+                <p className="mt-6 text-lg leading-8 text-paragraph sm:max-w-md lg:max-w-none">
                   Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in
                   quis cupidatat mollit aute velit. Et labore commodo nulla
                   aliqua proident mollit ullamco exercitation tempor. Sint
