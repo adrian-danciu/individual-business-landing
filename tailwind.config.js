@@ -12,6 +12,7 @@ export default {
         paragraph: "#5f6c7b",
         accent: "ef4565",
         vintage: "#faeee7",
+        backgroundBlue: "#d8eefe",
       },
     },
   },
